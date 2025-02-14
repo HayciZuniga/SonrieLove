@@ -55,7 +55,7 @@ const ValentineWebsite = () => {
     },
     {
       image: "https://i.pinimg.com/474x/4c/9d/2b/4c9d2bad7462fca466c73eb8d4ac40fb.jpg",
-      title: ""
+      title: "Gracias por todo mi vida"
     },
     {
       image: "https://i.postimg.cc/d0twJBHx/Whats-App-Image-2025-02-13-at-12-18-57-PM.jpg",
@@ -118,7 +118,7 @@ const ValentineWebsite = () => {
         <Fade in={showContent} timeout={1000}>
           <Container maxWidth="lg" className="content-container">
             <Typography variant="h3" className="title" style={{ fontFamily: "cursive" , fontWeight:"bold"}}>
-              Happy Valentine's Day My Love 🤍
+              Feliz Día Mi Amor 🤍
             </Typography>
             <div className="card-container">
               {cardData.map((card, index) => (
